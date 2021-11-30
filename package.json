@@ -1,0 +1,22 @@
+{
+  "name": "patient-portal-system",
+  "version": "1.0.0",
+  "description": "Final Year Project - Patient Portal System",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Timothy-py/Patient-Portal-System.git"
+  },
+  "author": "Timothy Adeyeye",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Timothy-py/Patient-Portal-System/issues"
+  },
+  "homepage": "https://github.com/Timothy-py/Patient-Portal-System#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

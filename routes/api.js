@@ -5,6 +5,8 @@ const controller = require('../controllers/controller');
 
 router.get('/', controller.index);
 
-router.get('/login', controller.getLogin);
+router.get('/doctor/login', controller.getDoctorLogin);
+
+router.get('/patient/login', controller.getPatientLogin);
 
 module.exports = router;

@@ -1,0 +1,189 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: roboto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Nova Round", cursive;
+}
+
+.wrap {
+  background: rgba(0, 0, 0, 0.3) url(patient_portal10.png) no-repeat;
+  background-position: center;
+  background-size: 60% 60%;
+  min-height: 100vh;
+  overflow: hidden;
+  background-blend-mode: overlay;
+}
+
+.wave {
+  position: absolute;
+  width: 100%;
+  bottom: -160px;
+  color: #fff;
+  opacity: 0.3;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  padding: 25px 80px;
+  background: linear-gradient(to top, transparent, rgba(0, 0, 0, 0.6));
+}
+
+header .logo {
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff;
+  float: left;
+}
+
+.navbar {
+  float: right;
+  margin-top: 5px;
+}
+
+header ul li {
+  display: inline-block;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar li {
+  margin: 1em;
+}
+.navbar a {
+  text-decoration: none;
+  padding: 0.7em;
+  color: #fff;
+  font-size: large;
+  font-weight: 500;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 0.1em;
+  transition: 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+  color: black;
+  font-size: larger;
+}
+.process {
+  transition: 0.1s ease-in-out;
+}
+
+.process:hover {
+  background-color: orange;
+  border-radius: 40px;
+}
+
+.content {
+  max-width: 55%;
+  padding: 200px 80px;
+  color: #fff;
+}
+
+.content h1 {
+  font-size: 48px;
+}
+
+.content p {
+  font-size: 20px;
+  padding: 25px 0;
+  font-weight: 300;
+}
+
+.content a {
+  display: block;
+  padding: 15px 45px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 50px;
+  margin-bottom: 5px;
+}
+
+.our-partners {
+  padding: 0 80px;
+  position: relative;
+  margin-top: -7%;
+}
+
+.our-partners h3 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.our-partners hr {
+  border: none;
+  height: 4px;
+  width: 100px;
+  background-color: orange;
+  margin-bottom: 3em;
+}
+
+.our-partners-inner a {
+  float: left;
+  width: 120px;
+  height: 120px;
+  padding: 15px;
+  margin-right: 100px;
+  border: 1px solid #cacaca;
+  border-radius: 10%;
+}
+
+.our-partners-inner a:hover {
+  box-shadow: 5px 5px 5px;
+}
+
+.our-partners-inner img {
+  width: 100%;
+  margin-bottom: 3em;
+}
+
+#btn li {
+  list-style-type: none;
+  text-align: center;
+  display: inline-block;
+}
+
+#btn li {
+  list-style-type: none;
+  padding: 0.7em 0.7em;
+}
+#btn a {
+  padding: 0.8em 0.8em;
+  text-decoration: none;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+}
+#btn a:hover {
+  color: black;
+}
+
+#free-download {
+  margin-right: 1em;
+  background-color: orange;
+}
+#learn {
+  border: 2px solid white;
+}
+#learn:hover {
+  background-color: white;
+}

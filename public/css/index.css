@@ -20,7 +20,7 @@ h6 {
 .wrap {
   background: rgba(0, 0, 0, 0.3) url(patient_portal10.png) no-repeat;
   background-position: center;
-  background-size: 60% 60%;
+  background-size: 45% 45%;
   min-height: 100vh;
   overflow: hidden;
   background-blend-mode: overlay;
@@ -72,8 +72,8 @@ header ul li {
 .navbar a {
   text-decoration: none;
   padding: 0.7em;
-  color: #fff;
-  font-size: large;
+  color: #162a75;
+  font-size: larger;
   font-weight: 500;
   font-family: Georgia, "Times New Roman", Times, serif;
   letter-spacing: 0.1em;
@@ -89,7 +89,7 @@ header ul li {
 }
 
 .process:hover {
-  background-color: orange;
+  background-color: #e6555c;
   border-radius: 40px;
 }
 
@@ -118,44 +118,6 @@ header ul li {
   margin-bottom: 5px;
 }
 
-.our-partners {
-  padding: 0 80px;
-  position: relative;
-  margin-top: -7%;
-}
-
-.our-partners h3 {
-  font-size: 28px;
-  margin-bottom: 15px;
-}
-
-.our-partners hr {
-  border: none;
-  height: 4px;
-  width: 100px;
-  background-color: orange;
-  margin-bottom: 3em;
-}
-
-.our-partners-inner a {
-  float: left;
-  width: 120px;
-  height: 120px;
-  padding: 15px;
-  margin-right: 100px;
-  border: 1px solid #cacaca;
-  border-radius: 10%;
-}
-
-.our-partners-inner a:hover {
-  box-shadow: 5px 5px 5px;
-}
-
-.our-partners-inner img {
-  width: 100%;
-  margin-bottom: 3em;
-}
-
 #btn li {
   list-style-type: none;
   text-align: center;
@@ -179,7 +141,10 @@ header ul li {
 
 #free-download {
   margin-right: 1em;
-  background-color: orange;
+  background-color: #fb2a35;
+}
+#free-download:hover {
+  background-color: #e3b8ba;
 }
 #learn {
   border: 2px solid white;

@@ -7,3 +7,14 @@ exports.index = (req, res) => {
         message: 'This is the index'
     })
 }
+
+
+// get login page
+exports.getLogin =  (req, res) => {
+    res.render('doctor-login', {
+        title: 'Doctor-Login',
+        'page': 'doctor-login',
+        message: '',
+        layout: false
+    })
+}

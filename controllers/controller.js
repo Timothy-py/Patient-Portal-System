@@ -3,7 +3,6 @@ exports.index = (req, res) => {
     res.render('index', {
         title: 'Patient-Portal',
         page: 'index',
-        layout: false,
         message: 'This is the index'
     })
 }
@@ -15,6 +14,5 @@ exports.getLogin =  (req, res) => {
         title: 'Doctor-Login',
         'page': 'doctor-login',
         message: '',
-        layout: false
     })
 }

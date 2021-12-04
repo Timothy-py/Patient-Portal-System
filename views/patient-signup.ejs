@@ -19,16 +19,21 @@
         <div class="reg-form">
                 <form action="#" method="post">
                     <label for="name">Name<span>*</span></label><br>
-                    <input type="text" name="name" id="name" placeholder="Enter fullname"><br>
+                    <input type="text" name="name" id="name" placeholder="Enter fullname" required>
                     <label for="age">Age<span>*</span></label><br>
-                    <input type="number" name="age" id="age" placeholder="0"><br>
+                    <input type="number" name="age" id="age" placeholder="0" required><br>
                     <label for="phone">Phone<span>*</span></label><br>
-                    <input type="tel" name="phone" id="phone"><br>
+                    <input type="tel" name="phone" id="phone" required>
                     <label for="gender">Gender<span>*</span></label><br>
                     <input type="radio" name="gender" id="gender" value="Male">Male
-                    <input type="radio" name="gender" id="gender" value="Female">Female
-                    <br>
-                    <span>Family Medical History</span><br>
+                    <input type="radio" name="gender" id="gender" value="Female">Female <br>
+                    
+                    <label for="exercise">How often do you exercise</label><br>
+                    <textarea name="exercise" id="exercise" cols="30" rows="10"></textarea>
+                    <label for="medication">Medication taken</label><br>
+                    <textarea name="medicaton" id="medication" cols="30" rows="10"></textarea>
+
+                    <p>Family Medical History</p>
                     <div class="med-history">
                         <input type="checkbox" id="allegies" name="allegies" value="Allegies">
                         <label for="allegies"> Allegies</label><br>
@@ -53,11 +58,10 @@
                         <input type="checkbox" id="thyroid" name="thyroid" value="Thyroid Disease">
                         <label for="thyroid">Thyroid Disease</label><br>
                         <input type="checkbox" id="surgeries" name="surgeries" value="Surgeries">
-                        <label for="surgeries">Surgeries</label><br>
+                        <label for="surgeries">Surgeries</label>
                     </div>
-                    
+                    <p>Habitual Consumption</p>
                     <div class="hab-consumption">
-                        <span>Habitual Consumption</span><br>
                         <input type="checkbox" id="cigarettes" name="cigarettes" value="Cigarettes">
                         <label for="cigarettes">Cigarettes</label><br>
                         <input type="checkbox" id="beverages" name="beverages" value="Alcoholic Beverages">
@@ -67,21 +71,11 @@
                         <input type="checkbox" id="other" name="other" value="Other">
                         <label for="other">Other</label><br>
                     </div>
-        
-                    <label for="exercise">How often do you exercise</label><br>
-                    <textarea name="exercise" id="exercise" cols="30" rows="10"></textarea><br>
-                    <label for="medication">Medication taken</label><br>
-                    <textarea name="medicaton" id="medication" cols="30" rows="10"></textarea><br>
-        
                     <label for="email">Email<span>*</span></label><br>
-                    <input type="email" name="email" id="email" placeholder="example@email.com"><br>
-                    <label for="email2">Confirm Email<span>*</span></label><br>
-                    <input type="email" name="email2" id="email2" placeholder="example@email.com"><br>
+                    <input type="email" name="email" id="email" placeholder="example@email.com" required><br>
         
                     <label for="password">Password<span>*</span></label><br>
-                    <input type="password" name="password" id="password" placeholder="*********"><br>
-                    <label for="password2">Confirm Password<span>*</span></label><br>
-                    <input type="password" name="password2" id="password2" placeholder="*********"><br>
+                    <input type="password" name="password" id="password" placeholder="*********" required> <br>
         
                     <input type="submit" value="Submit">
                 </form>

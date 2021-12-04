@@ -50,6 +50,10 @@ header .logo {
   float: left;
 }
 
+.logo span {
+  color: #162a75;
+}
+
 .navbar {
   float: right;
   margin-top: 5px;

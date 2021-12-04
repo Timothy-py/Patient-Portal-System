@@ -12,7 +12,7 @@ exports.index = (req, res) => {
 exports.getDoctorLogin =  (req, res) => {
     res.render('doctor-login', {
         title: 'Doctor-Login',
-        'page': 'doctor-login',
+        page: 'doctor-login',
         message: '',
     })
 }
@@ -21,7 +21,15 @@ exports.getDoctorLogin =  (req, res) => {
 exports.getPatientLogin =  (req, res) => {
     res.render('patient-login', {
         title: 'Patient-Login',
-        'page': 'patient-login',
+        page: 'patient-login',
         message: '',
+    })
+}
+
+// get patient signup form
+exports.getSignup = (req, res) => {
+    res.render('patient-signup', {
+        title: 'Patient-Signup',
+        page: 'patient-signup'
     })
 }

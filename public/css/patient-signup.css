@@ -1,0 +1,83 @@
+body {
+  background-color: #f4f5f9;
+}
+.header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  padding: 25px 80px;
+  background: linear-gradient(to top, transparent, rgba(0, 0, 0, 0.6));
+}
+
+.el1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  float: left;
+  margin-left: 5em;
+}
+.el1 span {
+  color: #162a75;
+}
+
+.el2 {
+  float: right;
+  margin-top: 4px;
+  margin-right: 17em;
+}
+
+.el2 a {
+  text-decoration: none;
+  color: white;
+  padding: 0.6em 0.8em;
+  font-size: 20px;
+  background-color: rgb(193, 189, 189);
+}
+
+.title {
+  margin-top: 4em;
+  margin-bottom: 0.6em;
+}
+
+.title {
+  margin-left: 8.5em;
+  font-size: 27px;
+}
+
+.reg-form {
+  margin-left: 14.5em;
+  /* border: 2px solid black; */
+  width: 70%;
+  padding: 1em 1em;
+  background-color: white;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+label span {
+  color: red;
+}
+
+.med-history {
+  width: 200px;
+  height: 170px;
+  overflow: scroll;
+}
+
+input[type="text"],
+[type="number"],
+[type="tel"],
+[type="email"],
+[type="password"] {
+  border: #f1f1f1;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 12px 15px;
+  margin: 8px 0;
+  width: 250px;
+  margin-bottom: 1.5rem;
+}

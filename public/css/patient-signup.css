@@ -50,7 +50,7 @@ body {
   width: 70%;
   padding: 1em 1em;
   background-color: white;
-  height: 90vh;
+  height: 80%;
 }
 
 label {
@@ -70,7 +70,7 @@ label span {
 }
 
 .hab-consumption {
-  margin-bottom: 4em;
+  margin-bottom: 8em;
 }
 
 input[type="text"],
@@ -99,4 +99,21 @@ input[type="text"],
 #gender,
 .med-history {
   margin-bottom: 2em;
+}
+
+input[type="submit"] {
+  margin-left: 28em;
+  padding: 12px 28px;
+  text-decoration: none;
+  border: none;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: #162a75;
+  color: white;
+}
+
+input[type="submit"]:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid #162a75;
 }

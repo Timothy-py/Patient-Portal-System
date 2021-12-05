@@ -29,7 +29,7 @@ body {
 .el2 {
   float: right;
   margin-top: 4px;
-  margin-right: 17em;
+  margin-right: 3em;
 }
 
 .el2 a {
@@ -48,9 +48,6 @@ body {
 }
 
 .table {
-  /* margin-left: 9em; */
-  /* width: 70%; */
   padding: 1em 1em;
   background-color: white;
-  /* height: 80%; */
 }

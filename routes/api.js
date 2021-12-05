@@ -11,4 +11,6 @@ router.get('/patient/login', controller.getPatientLogin);
 
 router.get('/patient/signup', controller.getSignup);
 
+router.get('/patient/visits', controller.getPatientVisits);
+
 module.exports = router;

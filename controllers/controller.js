@@ -33,3 +33,11 @@ exports.getSignup = (req, res) => {
         page: 'patient-signup'
     })
 }
+
+// get patient visists
+exports.getPatientVisits = (req, res) => {
+    res.render('patient-visit', {
+        title: 'Patient-Visit',
+        page: 'patient-visit'
+    })
+}

@@ -20,6 +20,10 @@ body {
 .el1 span {
   color: #162a75;
 }
+.el1 a {
+  text-decoration: none;
+  color: white;
+}
 
 .el2 {
   float: right;

@@ -36,6 +36,7 @@ main {
   text-decoration: none;
   color: white;
   padding: 0.6em 0.8em;
+  font-size: 20px;
   background-color: #162a75;
 }
 
@@ -51,7 +52,7 @@ main {
   background-color: white;
 }
 
-#visits {
+#messages {
   background-color: #f4f5f9;
   color: #162a75;
   border: 2px solid #162a75;

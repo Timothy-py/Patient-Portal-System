@@ -42,16 +42,16 @@ body {
 .title {
   margin-top: 4em;
   margin-bottom: 0.6em;
-  margin-left: 4em;
+  margin-left: 7em;
   font-size: 27px;
 }
 
 .reg-form {
-  margin-left: 7em;
-  width: 85%;
+  margin-left: 12em;
+  width: 50%;
   padding: 1em 1em;
   background-color: white;
-  height: 80%;
+  height: 70%;
 }
 
 label {

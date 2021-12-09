@@ -1,0 +1,96 @@
+<head>
+    <link rel="stylesheet" href="/css/manage-patients.css" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<div class="container">
+    <div class="header">
+        <div class="el1">
+            <a href="/portal">My<span>Health</span> App </a>
+        </div>
+        <div class="el2">
+            <a href="/portal/doctor/manage-patients" id="visits">Manage Patients</a>
+            <a href="#" id="profile">Profile</a>
+            <a href="#" id="logout">Logout</a>
+        </div>
+    </div>
+    
+        
+        <div class="table">
+            <div class="title">
+                Manage Patients
+            </div>
+            <!-- TABLE STARTS HERE --> 
+            <div class="container mb-3 mt-3">
+                <table class="table table-striped table-bordered mydatatable" style="width: 100%">
+                    <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Phone</th>
+                        <th>Email</th>
+                        <th>Patient Status</th>
+                        <th>Details</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Ola James</td>
+                            <td>09032424535</td>
+                            <td>olajames@gmail.com</td>
+                            <td>Active</td>
+                            <td> <a href="">Details</a> </td>
+                        </tr> 
+                        <tr>
+                            <td>Tunde Ednut</td>
+                            <td>09034564733</td>
+                            <td>ednut32@gmail.com</td>
+                            <td>Active</td>
+                            <td> <a href="">Details</a> </td>
+                        </tr> 
+                        <tr>
+                            <td>Chuks Emmanuel</td>
+                            <td>07032547424</td>
+                            <td>chucksemma@yahoo.com</td>
+                            <td>Inactive</td>
+                            <td> <a href="">Details</a> </td>
+                        </tr> 
+                        <tr>
+                            <td>Left Peckers</td>
+                            <td>09036273753</td>
+                            <td>peckleft325@gmail.com</td>
+                            <td>Admitted</td>
+                            <td> <a href="">Details</a> </td>
+                        </tr> 
+                        <tr>
+                            <td>Abdul Maami</td>
+                            <td>08132847562</td>
+                            <td>maamidul@gmail.com</td>
+                            <td>Discharged</td>
+                            <td> <a href="">Details</a> </td>
+                        </tr> 
+                        <tr>
+                            <td>Titus Lekan</td>
+                            <td>09035674234</td>
+                            <td>lektus221@yahoo.com</td>
+                            <td>Inactive</td>
+                            <td> <a href="">Details</a> </td>
+                        </tr> 
+                    </tbody>
+                </table>
+            </div>
+            <!-- TABLE ENDS HERE -->
+        </div>
+        
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/1.10.25/js/dataTables.bootstrap4.min.js"></script>
+  <script>
+    $('.mydatatable').DataTable({
+        // "pagingType": "numbers"
+    });
+  </script>

@@ -15,4 +15,6 @@ router.get('/patient/visits', controller.getPatientVisits);
 
 router.get('/patient/messages', controller.getPatientMessages);
 
+router.get('/doctor/manage-patients',  controller.getManagePatients);
+
 module.exports = router;

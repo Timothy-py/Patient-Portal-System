@@ -64,4 +64,12 @@ exports.getPatientDetails = (req, res) => {
         title: 'Patient Details',
         page: 'patient-details'
     })
+} 
+
+// get Create Message
+exports.getCreateMessage = (req, res) => {
+    res.render('create-message', {
+        title: 'Create Message',
+        page: 'create-message'
+    })
 }

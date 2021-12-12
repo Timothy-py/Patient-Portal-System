@@ -1,0 +1,36 @@
+<head>
+    <link rel="stylesheet" href="/css/create-message.css" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+</head>
+
+<div class="container">
+    <div class="header">
+        <div class="el1">
+            <a href="/portal">My<span>Health</span> App<i class="las la-heartbeat" style="color: #162a75;"></i> </a>
+        </div>
+        <div class="el2">
+            <a href="/portal/doctor/manage-patients" id="visits">Manage Patients</a>
+            <a href="#" id="profile">Profile</a>
+            <a href="#" id="logout">Logout</a>
+        </div>
+    </div>
+    
+        
+        <div class="table1">
+            <div class="title1">
+                Add New Message
+            </div>
+
+            <form action="" method="post">
+                <label for="msg">Message<span>*</span></label><br>
+                <textarea name="msg" id="msg" cols="30" rows="6"></textarea><br>
+                <br>
+                <label for="attachment">Attachment</label><br>
+                <input type="file" name="attachment" id="attachment">
+                <br><br>
+                <input type="submit" value="Send">
+            </form>
+
+        </div>
+</div>

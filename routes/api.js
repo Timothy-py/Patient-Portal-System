@@ -21,4 +21,6 @@ router.get('/doctor/patient-details', controller.getPatientDetails);
 
 router.get('/doctor/create-message', controller.getCreateMessage);
 
+router.get('/doctor/create-visit', controller.getCreateVisit);
+
 module.exports = router;

@@ -73,3 +73,12 @@ exports.getCreateMessage = (req, res) => {
         page: 'create-message'
     })
 }
+
+// get Create Visit
+exports.getCreateVisit = (req, res) => {
+    res.render('create-visit', {
+        title: 'Create Visit',
+        page: 'create-visit'
+    })
+}
+

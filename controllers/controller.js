@@ -57,3 +57,11 @@ exports.getManagePatients = (req, res) => {
         page: 'manage-patients'
     })
 }
+
+// get Patient Details
+exports.getPatientDetails = (req, res) => {
+    res.render('patient-details', {
+        title: 'Patient Details',
+        page: 'patient-details'
+    })
+}
